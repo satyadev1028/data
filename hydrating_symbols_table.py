@@ -10,7 +10,7 @@ import mysql.connector
 
 FILE = open("NASDAQ.txt", "r+")
 
-MYDB = mysql.connector.connect(host="localhost", user="root", passwd="arena", database="dip")
+MYDB = mysql.connector.connect(host="localhost", user="root", passwd="root", database="dip")
 
 LINES = FILE.readlines()
 for line in LINES:
